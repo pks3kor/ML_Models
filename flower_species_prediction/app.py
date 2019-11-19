@@ -26,7 +26,7 @@ def predict():
     elif prediction == 3:
         output = "virginica"
     else:
-        output = "UNKOWN!!"
+        output = "UNKNOWN!!"
     return render_template('index.html',prediction_text='Given input belongs to following Flower Species---->> __%s__ '%(output))
     
 if __name__ == "__main__":
